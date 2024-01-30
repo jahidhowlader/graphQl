@@ -9,5 +9,5 @@ app.get("/", (req, res) => {
 app.use('/api', require('./routes/crud'))
 
 app.listen(port, () => {
-    console.log("Server is Running");
+    console.log("Server is Running on, ", port);
 })
